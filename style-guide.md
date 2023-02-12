@@ -1,34 +1,34 @@
-# Front-end Style Guide
+# Guia de estilo de front-end
 
 ## Layout
 
-The designs were created to the following widths:
+Os desenhos foram criados nas seguintes larguras:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Móvel: 375px
+- Área de trabalho: 1440px
 
-## Colors
+## Cores
 
-### Primary
+### Principal
 
-- Strong cyan: hsl(172, 67%, 45%)
+- Ciano forte: hsl(172, 67%, 45%)
 
-### Neutral
+### Neutro
 
-- Very dark cyan: hsl(183, 100%, 15%)
-- Dark grayish cyan: hsl(186, 14%, 43%)
-- Grayish cyan: hsl(184, 14%, 56%)
-- Light grayish cyan: hsl(185, 41%, 84%)
-- Very light grayish cyan: hsl(189, 41%, 97%)
-- White: hsl(0, 0%, 100%)
+- Ciano muito escuro: hsl(183, 100%, 15%)
+- Ciano acinzentado escuro: hsl(186, 14%, 43%)
+- Ciano acinzentado: hsl(184, 14%, 56%)
+- Ciano acinzentado claro: hsl(185, 41%, 84%)
+- Ciano acinzentado muito claro: hsl(189, 41%, 97%)
+- Branco: hsl(0, 0%, 100%)
 
-## Typography
+## Tipografia
 
-### Body Copy
+### Cópia do corpo
 
-- Font size (form inputs): 24px
+- Tamanho da fonte (entradas de formulário): 24px
 
-### Font
+### Fonte
 
-- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-- Weights: 700
+- Família: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Pesos: 700
