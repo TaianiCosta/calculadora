@@ -20,8 +20,27 @@
     padding: 0;
 }
 
-<body {
+body {
     font-family: 'Space Mono', monoespaçado;
+    background-color: hsl(185, 41%, 84%);
+}
+
+h1 {
+    color: hsl(183, 100%, 15%);
+}
+
+p1 {
+    color: hsl(186, 14%, 43%);
+}
+
+.valor {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(183, 100%, 15%);
+}
+
+p2 {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(183, 100%, 15%);
 }
 
 .attribution { 
