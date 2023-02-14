@@ -23,6 +23,16 @@
 body {
     font-family: 'Space Mono', monoespaçado;
     background-color: hsl(185, 41%, 84%);
+    text-align: center;
+    margin-top: 5em;
+    
+}
+
+.conteudo {
+    background-color: hsl(0, 0%, 100%);
+    width: 50vw;
+    height: 30vh;
+    margin: 5em 20em;
 }
 
 h1 {
