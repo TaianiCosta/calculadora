@@ -3,16 +3,19 @@
 :root {
     /* ----- Primary ----- */
 
-    -- Strong cyan: hsl(172, 67%, 45%);
+    --Strongcyan: hsl(172, 67%, 45%);
 
     /* ----- Neutral ----- */
 
-    -- Very dark cyan: hsl(183, 100%, 15%)
-    -- Dark grayish cyan: hsl(186, 14%, 43%)
-    -- Grayish cyan: hsl(184, 14%, 56%)
-    -- Light grayish cyan: hsl(185, 41%, 84%)
-    -- Very light grayish cyan: hsl(189, 41%, 97%)
-    -- White: hsl(0, 0%, 100%)
+    --Verydarkcyan: hsl(183, 100%, 15%);
+    --Darkgrayishcyan: hsl(186, 14%, 43%);
+    --Grayishcyan: hsl(184, 14%, 56%);
+    --Lightgrayishcyan: hsl(185, 41%, 84%);
+    --Verylightgrayishcyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ----- Footer ----- */
+    --Pink: hsl(327, 88%, 50%);
 }
 
 *{
@@ -22,35 +25,35 @@
 
 body {
     font-family: 'Space Mono', monoespaçado;
-    background-color: hsl(185, 41%, 84%);
+    background-color: var(--Lightgrayishcyan);
     text-align: center;
     margin-top: 5em;
     
 }
 
 .conteudo {
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--White);
     width: 50vw;
     height: 30vh;
     margin: 5em 20em;
 }
 
 h1 {
-    color: hsl(183, 100%, 15%);
+    color: var(--Verydarkcyan);
 }
 
 p1 {
-    color: hsl(186, 14%, 43%);
+    color: var(--Darkgrayishcyan);
 }
 
 .valor {
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(183, 100%, 15%);
+    color: var(--White);
+    background-color: var(--Verydarkcyan);
 }
 
 p2 {
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(183, 100%, 15%);
+    color: var(--White);
+    background-color: var(--Verydarkcyan);
 }
 
 .attribution { 
@@ -58,5 +61,5 @@ p2 {
 }
 
 .attribution a { 
-        color: hsl(327, 88%, 50%); 
+        color: var(--Pink); 
 }
